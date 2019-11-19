@@ -1,6 +1,6 @@
 Package: CMRpackage
 Type: A package building training package
-Version: 0.1.0
+Version: 0.1.1
 Author: Chris Mainey
 Maintainer: Chris Mainey <chrismainey@gmail.com>
 Description: This is a training package with a hello world function, a squared error and a plot.
