@@ -4,12 +4,14 @@
 \alias{squared_error_plot}
 \title{Squared error plot}
 \usage{
-squared_error_plot(reference, calcualted)
+squared_error_plot(reference, calculated, title = "Squared error plot")
 }
 \arguments{
 \item{reference}{The reference values to compare against}
 
-\item{calcualted}{The calcualted values to be comparared against reference.}
+\item{calculated}{The calculated values to be comparared against reference.}
+
+\item{title}{The title for you plot.  Default}
 }
 \value{
 A ggplot object (list)
@@ -19,9 +21,8 @@ Squared error plot
 }
 \examples{
 
-reference <- c( 12, 15, 25, 31)
-calculated <- c( 10, 17, 26, 30)
+reference <- rnorm(100, 30, 5)
+calculated <- reference + rnorm(100, 0, 5)
 
-squared_error_plot(reference, calculated, title)
-
+squared_error_plot(reference, calculated)
 }

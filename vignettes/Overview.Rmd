@@ -1,0 +1,51 @@
+---
+title: "Overview of CMRpackage"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Overview}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+set.seed(123)
+```
+
+```{r setup}
+library(CMRpackage)
+```
+
+
+## Introduction
+
+This is an overview of the functions in the `CMRPackage` that we've developed today.
+
+It contains:
++ A 'Hello' function
++ A `squared_error` function
++ A ``squared_error_plot` function, using `ggplot2`
+
+
+### Example 1:
+
+```{r squared_error}
+
+reference <- rnorm(50, 50, 10)
+new <- reference + rnorm(50, 0, 6)
+
+squared_error(reference, new) 
+```
+
+### Plot example:
+
+```{r plot_examp}
+
+squared_error_plot(reference, new)
+
+```
+
+So there you go...

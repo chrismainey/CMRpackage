@@ -16,6 +16,6 @@ a character string of 'Hello {name}'
 Hello world function
 }
 \examples{
-hellp_function("Jeff")
+hello_function("Jeff")
 
 }

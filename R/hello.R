@@ -7,7 +7,7 @@
 #' @export
 #'
 #' @examples
-#' hellp_function("Jeff")
+#' hello_function("Jeff")
 #'
 hello_function <- function(name){
 

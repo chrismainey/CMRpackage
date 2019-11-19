@@ -3,4 +3,5 @@
 export(hello_function)
 export(squared_error)
 export(squared_error_plot)
+import(Cairo)
 import(ggplot2)
