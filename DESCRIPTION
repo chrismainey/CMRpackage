@@ -11,3 +11,5 @@ Imports:
     ggplot2,
     Cairo
 RoxygenNote: 7.0.0
+URL: https://github.com/chrismainey/CMRpackage
+BugReports: https://github.com/chrismainey/CMRpackage/issues
