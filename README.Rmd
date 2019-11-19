@@ -17,6 +17,7 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![Travis build status](https://travis-ci.org/chrismainey/CMRpackage.svg?branch=master)](https://travis-ci.org/chrismainey/CMRpackage)
+[![Codecov test coverage](https://codecov.io/gh/chrismainey/CMRpackage/branch/master/graph/badge.svg)](https://codecov.io/gh/chrismainey/CMRpackage?branch=master)
 <!-- badges: end -->
 
 The goal of CMRpackage is to act as a fairly simple example for building your own R packages.
